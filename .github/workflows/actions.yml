@@ -12,7 +12,7 @@ jobs:
         with:
            who-to-greet: sunil
       - name: Log Greetomg Time
-        run: echo"${{ steps.greet.outputs.time }}"
+        run: echo "${{ steps.greet.outputs.time }}"
       - name: Directory Bash
         run: pwd
         shell: bash
